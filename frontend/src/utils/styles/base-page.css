@@ -1,0 +1,24 @@
+.base-page-container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-primary-100);
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    justify-content: space-between;
+}
+
+.input:checked + .base-page-container {
+    margin-left: 290px !important;
+    width: calc(100% - 290px) !important;
+}
+
+.base-page-container::-webkit-scrollbar {
+    display: none;
+}
+
+.base-page-container div {
+    list-style: none;
+}

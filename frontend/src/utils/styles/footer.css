@@ -1,0 +1,28 @@
+.footer-container-fluid {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link-box {
+    background-color: var(--color-primary-600);
+    color: white;
+}
+
+.footer-link-box ul {
+    list-style: none;
+}
+
+.footer-link-box ul li {
+    padding-left: 15px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.footer-website-box {
+    background-color: var(--color-primary-700);
+    color: white;
+    font-size: 48px;
+    padding: 20px;
+    height: 160px;
+    text-align: center;
+}

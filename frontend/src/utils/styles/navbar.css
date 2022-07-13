@@ -1,0 +1,39 @@
+.navbar-container-fluid {
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--color-primary-700);
+    box-sizing: border-box;
+}
+
+.navbar-region {
+    background-color: var(--color-primary-600);
+    color: var(--color-button-text);
+    width: 70%;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 6px;
+    align-items: center;
+    box-shadow: 0px 0px 50px 1px rgba(0 ,0, 0, 0.35);
+    border-radius: 15px;
+}
+
+.navbar-region ul {
+    list-style: none;
+}
+
+.navbar-region li {
+    display: inline;
+    padding: 25px;
+}
+
+.navbar-region li:hover {
+    cursor:pointer;
+}
+
+.navbar-region ul li a {
+    padding: 25px;
+    padding-right: 25px;
+}
